@@ -1,29 +1,38 @@
 # MFRC522
 
-Arduino sketch or library from the Arduino archive.
+Arduino RFID Library for MFRC522 (SPI). Read/Write a RFID Card or Tag using the ISO/IEC 14443A/MIFARE interface. Original author: GithubCommunity. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.4.10. Upstream: <https://github.com/miguelbalboa/rfid>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (avr,megaavr,STM32F1,teensy,esp8266,esp32,samd,atmelsam)  
+**Output:** Arduino library
 
-- `examples/ReadNUID/ReadNUID.ino`
-- `examples/MinimalInterrupt/MinimalInterrupt.ino`
-- `examples/rfid_default_keys/rfid_default_keys.ino`
-- `examples/ReadAndWrite/ReadAndWrite.ino`
-- `examples/ReadUidMultiReader/ReadUidMultiReader.ino`
-- `examples/firmware_check/firmware_check.ino`
-- `examples/MifareClassicValueBlock/MifareClassicValueBlock.ino`
-- `examples/rfid_write_personal_data/rfid_write_personal_data.ino`
-- `examples/rfid_read_personal_data/rfid_read_personal_data.ino`
-- `examples/Ntag216_AUTH/Ntag216_AUTH.ino`
-- `examples/RFID-Cloner/RFID-Cloner.ino`
-- `examples/ChangeUID/ChangeUID.ino`
-- `examples/DumpInfo/DumpInfo.ino`
-- `examples/FixBrickedUID/FixBrickedUID.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `MFRC522` | C++ / Arduino | library | Arduino RFID Library for MFRC522 (SPI) |
+| `ChangeUID` | C++ / Arduino | example sketch | `examples/ChangeUID/ChangeUID.ino` |
+| `DumpInfo` | C++ / Arduino | example sketch | `examples/DumpInfo/DumpInfo.ino` |
+| `FixBrickedUID` | C++ / Arduino | example sketch | `examples/FixBrickedUID/FixBrickedUID.ino` |
+| `MifareClassicValueBlock` | C++ / Arduino | example sketch | `examples/MifareClassicValueBlock/MifareClassicValueBlock.ino` |
+| `MinimalInterrupt` | C++ / Arduino | example sketch | `examples/MinimalInterrupt/MinimalInterrupt.ino` |
+| `Ntag216_AUTH` | C++ / Arduino | example sketch | `examples/Ntag216_AUTH/Ntag216_AUTH.ino` |
+| `RFID-Cloner` | C++ / Arduino | example sketch | `examples/RFID-Cloner/RFID-Cloner.ino` |
+| `ReadAndWrite` | C++ / Arduino | example sketch | `examples/ReadAndWrite/ReadAndWrite.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/MFRC522`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** GithubCommunity
+- **library.properties name:** MFRC522
+- **Version:** 1.4.10
+- **Upstream URL:** <https://github.com/miguelbalboa/rfid>
+- **Category:** Communication
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original upstream license terms in this tree (where recorded). This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
