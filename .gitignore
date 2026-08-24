@@ -1,0 +1,54 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Legacy source-control bindings
+*.scc
+*.vssscc
+*.vspscc
+
+# NuGet
+packages/
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / credentials (never upload)
+*.pfx
+*.p12
+*.pem
+*.key
+.env
+**/appsettings.*.local.json
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Redacted originals (see *.example files)
+examples/MinimalInterrupt/MinimalInterrupt.ino
+examples/rfid_default_keys/rfid_default_keys.ino
+examples/ReadAndWrite/ReadAndWrite.ino
+examples/ReadUidMultiReader/ReadUidMultiReader.ino
+examples/MifareClassicValueBlock/MifareClassicValueBlock.ino
+examples/rfid_write_personal_data/rfid_write_personal_data.ino
+examples/RFID-Cloner/RFID-Cloner.ino
+examples/ChangeUID/ChangeUID.ino
+src/MFRC522.cpp
+src/MFRC522Extended.cpp
