@@ -2,6 +2,7 @@
 
 Arduino RFID Library for MFRC522 (SPI). Read/Write a RFID Card or Tag using the ISO/IEC 14443A/MIFARE interface. Original author: GithubCommunity. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.4.10. Upstream: <https://github.com/miguelbalboa/rfid>.
 
+**Source last updated:** 2021-11-02  
 **Language:** C++ / Arduino  
 **Target:** Arduino (avr,megaavr,STM32F1,teensy,esp8266,esp32,samd,atmelsam)  
 **Output:** Arduino library
