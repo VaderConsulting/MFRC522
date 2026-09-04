@@ -25,6 +25,10 @@ Arduino RFID Library for MFRC522 (SPI). Read/Write a RFID Card or Tag using the 
 
 Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/MFRC522`). Open any `examples/*.ino` from the Arduino IDE.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 - **Original author / maintainer:** GithubCommunity
