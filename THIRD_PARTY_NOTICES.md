@@ -6,4 +6,4 @@ This tree is a working copy of **MFRC522** by **GithubCommunity**.
 - Upstream: https://github.com/miguelbalboa/rfid
 - Version in this copy: 1.4.10
 - License hint: original upstream license terms in this tree (where recorded)
-- VaderConsulting / Dave Robinson did not author the third-party library code.
+- Vader Consulting / Dave Robinson did not author the third-party library code.
